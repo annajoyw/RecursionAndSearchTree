@@ -6,6 +6,8 @@ class Main {
   }
 
   public static void main(String[] args) {
-    System.out.println(factorial(3));
+    //System.out.println(factorial(3));
+    TowerOfHanoi toh = new TowerOfHanoi();
+    toh.Move(3, 'A', 'C', 'B');
   }
 }
